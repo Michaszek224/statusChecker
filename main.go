@@ -9,7 +9,7 @@ import (
 
 func main() {
 	args := os.Args
-	if len(args) > 2 {
+	if len(args) != 2 {
 		fmt.Println("Wrong command should be:")
 		fmt.Println("statuschecker 'url'")
 		log.Fatal()
